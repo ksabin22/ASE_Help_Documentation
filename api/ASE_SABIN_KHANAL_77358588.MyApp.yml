@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_SABIN_KHANAL_77358588.MyApp
+  commentId: N:ASE_SABIN_KHANAL_77358588.MyApp
+  id: ASE_SABIN_KHANAL_77358588.MyApp
+  children:
+  - ASE_SABIN_KHANAL_77358588.MyApp.AppCanvas
+  - ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory
+  - ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  - ASE_SABIN_KHANAL_77358588.MyApp.Clear
+  - ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle
+  - ASE_SABIN_KHANAL_77358588.MyApp.Reset
+  langs:
+  - csharp
+  - vb
+  name: ASE_SABIN_KHANAL_77358588.MyApp
+  nameWithType: ASE_SABIN_KHANAL_77358588.MyApp
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp
+  type: Namespace
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+references:
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppCanvas
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.AppCanvas
+  parent: ASE_SABIN_KHANAL_77358588.MyApp
+  href: ASE_SABIN_KHANAL_77358588.MyApp.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppCanvas
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory
+  href: ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory.html
+  name: AppCommandFactory
+  nameWithType: AppCommandFactory
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  href: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.html
+  name: AppPraser
+  nameWithType: AppPraser
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.Clear
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.Clear
+  href: ASE_SABIN_KHANAL_77358588.MyApp.Clear.html
+  name: Clear
+  nameWithType: Clear
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.Clear
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle
+  href: ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle.html
+  name: MyRectangle
+  nameWithType: MyRectangle
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.Reset
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.Reset
+  href: ASE_SABIN_KHANAL_77358588.MyApp.Reset.html
+  name: Reset
+  nameWithType: Reset
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.Reset
+- uid: ASE_SABIN_KHANAL_77358588.MyApp
+  commentId: N:ASE_SABIN_KHANAL_77358588.MyApp
+  href: ASE_SABIN_KHANAL_77358588.html
+  name: ASE_SABIN_KHANAL_77358588.MyApp
+  nameWithType: ASE_SABIN_KHANAL_77358588.MyApp
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588
+    name: ASE_SABIN_KHANAL_77358588
+    href: ASE_SABIN_KHANAL_77358588.html
+  - name: .
+  - uid: ASE_SABIN_KHANAL_77358588.MyApp
+    name: MyApp
+    href: ASE_SABIN_KHANAL_77358588.MyApp.html
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588
+    name: ASE_SABIN_KHANAL_77358588
+    href: ASE_SABIN_KHANAL_77358588.html
+  - name: .
+  - uid: ASE_SABIN_KHANAL_77358588.MyApp
+    name: MyApp
+    href: ASE_SABIN_KHANAL_77358588.MyApp.html

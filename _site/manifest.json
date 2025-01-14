@@ -1,0 +1,618 @@
+{
+  "source_base_path": "C:/Users/sabin/source/repos/ase-demo-assignment-ksabin22/ASE_SABIN_KHANAL_77358588",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationBoolean.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationCast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationCast.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationCompoundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationCompoundCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationConditionalCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationConditionalCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationElse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationFor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationIf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationPeek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationPoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationPoke.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationReal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.ApplicationWhile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.Fill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.Fill.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.Form1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.GlobalConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.GlobalConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.GlobalConfigTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.GlobalConfigTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.AppCanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.Clear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.Clear.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.Reset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.Reset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyDrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyDrawTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyFill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyFill.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyMoveTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyPenColour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyPenColour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.MyStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.MyStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.PenSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.PenSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.Triangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.WriteTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.WriteTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_SABIN_KHANAL_77358588.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_SABIN_KHANAL_77358588.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.CanvasTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.CanvasTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.CommandFactoryTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.CommandFactoryTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.CommandUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.CommandUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyCircleUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyCircleUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyClearUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyClearUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyDrawToUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyDrawToUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyFillUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyFillUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyMoveToUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyMoveToUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyPenColourUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyPenColourUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyRectangleUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyRectangleUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyResetsUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyResetsUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyStoredProgramUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyStoredProgramUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyTriangleTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyTriangleTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.MyWriteToUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.MyWriteToUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.ParserTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.ParserTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.PenSizeUnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.PenSizeUnitTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ASE_Test_Project.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ASE_Test_Project.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

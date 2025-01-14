@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Test_Project.MyDrawToUnitTests
+  commentId: T:ASE_Test_Project.MyDrawToUnitTests
+  id: MyDrawToUnitTests
+  parent: ASE_Test_Project
+  children:
+  - ASE_Test_Project.MyDrawToUnitTests.CheckParameters_ShouldNotThrow_WhenParametersAreValid
+  - ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+  - ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative
+  - ASE_Test_Project.MyDrawToUnitTests.TestInitialize
+  langs:
+  - csharp
+  - vb
+  name: MyDrawToUnitTests
+  nameWithType: MyDrawToUnitTests
+  fullName: ASE_Test_Project.MyDrawToUnitTests
+  type: Class
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyDrawToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: MyDrawToUnitTests
+    path: ASE_Test_Project/MyDrawToUnitTests.cs
+    startLine: 16
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Contains unit tests for the <xref href="ASE_SABIN_KHANAL_77358588.MyDrawTo" data-throw-if-not-resolved="false"></xref> command class,
+
+    verifying its behavior upon construction and parameter handling.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class MyDrawToUnitTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class MyDrawToUnitTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyDrawToUnitTests.TestInitialize
+  commentId: M:ASE_Test_Project.MyDrawToUnitTests.TestInitialize
+  id: TestInitialize
+  parent: ASE_Test_Project.MyDrawToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: TestInitialize()
+  nameWithType: MyDrawToUnitTests.TestInitialize()
+  fullName: ASE_Test_Project.MyDrawToUnitTests.TestInitialize()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyDrawToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestInitialize
+    path: ASE_Test_Project/MyDrawToUnitTests.cs
+    startLine: 27
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Initializes the test fixture by creating a mocked <xref href="BOOSE.Canvas" data-throw-if-not-resolved="false"></xref> instance.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void TestInitialize()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub TestInitialize()
+  overload: ASE_Test_Project.MyDrawToUnitTests.TestInitialize*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+  commentId: M:ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+  id: Constructor_ShouldInitialize_WhenParametersAreValid
+  parent: ASE_Test_Project.MyDrawToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_ShouldInitialize_WhenParametersAreValid()
+  nameWithType: MyDrawToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid()
+  fullName: ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyDrawToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: Constructor_ShouldInitialize_WhenParametersAreValid
+    path: ASE_Test_Project/MyDrawToUnitTests.cs
+    startLine: 38
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether the <xref href="ASE_SABIN_KHANAL_77358588.MyDrawTo" data-throw-if-not-resolved="false"></xref> constructor successfully initializes 
+
+    with valid X and Y coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_ShouldInitialize_WhenParametersAreValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_ShouldInitialize_WhenParametersAreValid()
+  overload: ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative
+  commentId: M:ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative
+  id: Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative
+  parent: ASE_Test_Project.MyDrawToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative()
+  nameWithType: MyDrawToUnitTests.Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative()
+  fullName: ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyDrawToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative
+    path: ASE_Test_Project/MyDrawToUnitTests.cs
+    startLine: 52
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether the <xref href="ASE_SABIN_KHANAL_77358588.MyDrawTo" data-throw-if-not-resolved="false"></xref> constructor throws a <xref href="BOOSE.RestrictionException" data-throw-if-not-resolved="false"></xref>
+
+    when given negative X or Y coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative()
+  overload: ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyDrawToUnitTests.CheckParameters_ShouldNotThrow_WhenParametersAreValid
+  commentId: M:ASE_Test_Project.MyDrawToUnitTests.CheckParameters_ShouldNotThrow_WhenParametersAreValid
+  id: CheckParameters_ShouldNotThrow_WhenParametersAreValid
+  parent: ASE_Test_Project.MyDrawToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ShouldNotThrow_WhenParametersAreValid()
+  nameWithType: MyDrawToUnitTests.CheckParameters_ShouldNotThrow_WhenParametersAreValid()
+  fullName: ASE_Test_Project.MyDrawToUnitTests.CheckParameters_ShouldNotThrow_WhenParametersAreValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyDrawToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: CheckParameters_ShouldNotThrow_WhenParametersAreValid
+    path: ASE_Test_Project/MyDrawToUnitTests.cs
+    startLine: 71
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests that <xref href="ASE_SABIN_KHANAL_77358588.MyDrawTo.CheckParameters(System.String%5b%5d)" data-throw-if-not-resolved="false"></xref> does not throw 
+
+    an exception when passed valid parameters.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_ShouldNotThrow_WhenParametersAreValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_ShouldNotThrow_WhenParametersAreValid()
+  overload: ASE_Test_Project.MyDrawToUnitTests.CheckParameters_ShouldNotThrow_WhenParametersAreValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_SABIN_KHANAL_77358588.MyDrawTo
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyDrawTo
+  href: ASE_SABIN_KHANAL_77358588.MyDrawTo.html
+  name: MyDrawTo
+  nameWithType: MyDrawTo
+  fullName: ASE_SABIN_KHANAL_77358588.MyDrawTo
+- uid: ASE_Test_Project
+  commentId: N:ASE_Test_Project
+  href: ASE_Test_Project.html
+  name: ASE_Test_Project
+  nameWithType: ASE_Test_Project
+  fullName: ASE_Test_Project
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSE.Canvas
+  commentId: T:BOOSE.Canvas
+  parent: BOOSE
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: BOOSE.Canvas
+- uid: ASE_Test_Project.MyDrawToUnitTests.TestInitialize*
+  commentId: Overload:ASE_Test_Project.MyDrawToUnitTests.TestInitialize
+  href: ASE_Test_Project.MyDrawToUnitTests.html#ASE_Test_Project_MyDrawToUnitTests_TestInitialize
+  name: TestInitialize
+  nameWithType: MyDrawToUnitTests.TestInitialize
+  fullName: ASE_Test_Project.MyDrawToUnitTests.TestInitialize
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid*
+  commentId: Overload:ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+  href: ASE_Test_Project.MyDrawToUnitTests.html#ASE_Test_Project_MyDrawToUnitTests_Constructor_ShouldInitialize_WhenParametersAreValid
+  name: Constructor_ShouldInitialize_WhenParametersAreValid
+  nameWithType: MyDrawToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+  fullName: ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+- uid: BOOSE.RestrictionException
+  commentId: T:BOOSE.RestrictionException
+  isExternal: true
+  name: RestrictionException
+  nameWithType: RestrictionException
+  fullName: BOOSE.RestrictionException
+- uid: ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative*
+  commentId: Overload:ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative
+  href: ASE_Test_Project.MyDrawToUnitTests.html#ASE_Test_Project_MyDrawToUnitTests_Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative
+  name: Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative
+  nameWithType: MyDrawToUnitTests.Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative
+  fullName: ASE_Test_Project.MyDrawToUnitTests.Constructor_ShouldThrowRestrictionException_WhenCoordinatesAreNegative
+- uid: ASE_SABIN_KHANAL_77358588.MyDrawTo.CheckParameters(System.String[])
+  commentId: M:ASE_SABIN_KHANAL_77358588.MyDrawTo.CheckParameters(System.String[])
+  isExternal: true
+  href: ASE_SABIN_KHANAL_77358588.MyDrawTo.html#ASE_SABIN_KHANAL_77358588_MyDrawTo_CheckParameters_System_String___
+  name: CheckParameters(string[])
+  nameWithType: MyDrawTo.CheckParameters(string[])
+  fullName: ASE_SABIN_KHANAL_77358588.MyDrawTo.CheckParameters(string[])
+  nameWithType.vb: MyDrawTo.CheckParameters(String())
+  fullName.vb: ASE_SABIN_KHANAL_77358588.MyDrawTo.CheckParameters(String())
+  name.vb: CheckParameters(String())
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.MyDrawTo.CheckParameters(System.String[])
+    name: CheckParameters
+    href: ASE_SABIN_KHANAL_77358588.MyDrawTo.html#ASE_SABIN_KHANAL_77358588_MyDrawTo_CheckParameters_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.MyDrawTo.CheckParameters(System.String[])
+    name: CheckParameters
+    href: ASE_SABIN_KHANAL_77358588.MyDrawTo.html#ASE_SABIN_KHANAL_77358588_MyDrawTo_CheckParameters_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: ASE_Test_Project.MyDrawToUnitTests.CheckParameters_ShouldNotThrow_WhenParametersAreValid*
+  commentId: Overload:ASE_Test_Project.MyDrawToUnitTests.CheckParameters_ShouldNotThrow_WhenParametersAreValid
+  href: ASE_Test_Project.MyDrawToUnitTests.html#ASE_Test_Project_MyDrawToUnitTests_CheckParameters_ShouldNotThrow_WhenParametersAreValid
+  name: CheckParameters_ShouldNotThrow_WhenParametersAreValid
+  nameWithType: MyDrawToUnitTests.CheckParameters_ShouldNotThrow_WhenParametersAreValid
+  fullName: ASE_Test_Project.MyDrawToUnitTests.CheckParameters_ShouldNotThrow_WhenParametersAreValid

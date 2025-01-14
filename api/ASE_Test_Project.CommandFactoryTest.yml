@@ -1,0 +1,1734 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Test_Project.CommandFactoryTest
+  commentId: T:ASE_Test_Project.CommandFactoryTest
+  id: CommandFactoryTest
+  parent: ASE_Test_Project
+  children:
+  - ASE_Test_Project.CommandFactoryTest.SetUp
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  - ASE_Test_Project.CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod
+  langs:
+  - csharp
+  - vb
+  name: CommandFactoryTest
+  nameWithType: CommandFactoryTest
+  fullName: ASE_Test_Project.CommandFactoryTest
+  type: Class
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: CommandFactoryTest
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 21
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Test class to verify the behavior of the <xref href="ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory" data-throw-if-not-resolved="false"></xref> and its command creation logic.
+  remarks: >-
+    This class contains a series of unit tests that ensure the <xref href="ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory" data-throw-if-not-resolved="false"></xref> correctly 
+
+    creates instances of command objects based on the provided command strings. It also verifies that 
+
+    invalid commands appropriately throw exceptions.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class CommandFactoryTest
+    content.vb: >-
+      <TestClass>
+
+      Public Class CommandFactoryTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.SetUp
+  commentId: M:ASE_Test_Project.CommandFactoryTest.SetUp
+  id: SetUp
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: CommandFactoryTest.SetUp()
+  fullName: ASE_Test_Project.CommandFactoryTest.SetUp()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: SetUp
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 36
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Initializes a new instance of the <xref href="ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory" data-throw-if-not-resolved="false"></xref> before each test.
+  remarks: >-
+    This method is executed before each test method to ensure that a fresh instance of 
+
+    <xref href="ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory" data-throw-if-not-resolved="false"></xref> is used, preventing state leakage between tests.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void SetUp()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub SetUp()
+  overload: ASE_Test_Project.CommandFactoryTest.SetUp*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+  id: TestMakeCommand_Circle_ShouldReturnAppCircle
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Circle_ShouldReturnAppCircle()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Circle_ShouldReturnAppCircle
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 49
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "circle" command returns a <xref href="ASE_SABIN_KHANAL_77358588.MyCircle" data-throw-if-not-resolved="false"></xref> object.
+  remarks: >-
+    Verifies that when the "circle" command is provided to the factory, it correctly creates an instance 
+
+    of <xref href="ASE_SABIN_KHANAL_77358588.MyCircle" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Circle_ShouldReturnAppCircle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Circle_ShouldReturnAppCircle()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  id: TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+  nameWithType: CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 68
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "moveto" command returns a <xref href="ASE_SABIN_KHANAL_77358588.MyMoveTo" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.MyMoveTo" data-throw-if-not-resolved="false"></xref> when the "moveto" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+  id: TestMakeCommand_Rect_ShouldReturnAppRectangle
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Rect_ShouldReturnAppRectangle()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Rect_ShouldReturnAppRectangle
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 87
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "rect" command returns a <xref href="ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle" data-throw-if-not-resolved="false"></xref> for the "rect" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Rect_ShouldReturnAppRectangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Rect_ShouldReturnAppRectangle()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+  id: TestMakeCommand_Tri_ShouldReturnTriangle
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Tri_ShouldReturnTriangle()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Tri_ShouldReturnTriangle
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 106
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "tri" command returns a <xref href="ASE_SABIN_KHANAL_77358588.Triangle" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="ASE_SABIN_KHANAL_77358588.Triangle" data-throw-if-not-resolved="false"></xref> when the "tri" command is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Tri_ShouldReturnTriangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Tri_ShouldReturnTriangle()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  id: TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+  nameWithType: CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_WriteTo_ShouldReturnWriteTo
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 125
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "writeto" command returns a <xref href="ASE_SABIN_KHANAL_77358588.WriteTo" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.WriteTo" data-throw-if-not-resolved="false"></xref> for the "writeto" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  id: TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+  nameWithType: CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 144
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "drawto" command returns a <xref href="ASE_SABIN_KHANAL_77358588.MyDrawTo" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="ASE_SABIN_KHANAL_77358588.MyDrawTo" data-throw-if-not-resolved="false"></xref> when the "drawto" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  id: TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+  nameWithType: CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_PenColour_ShouldReturnAppPenColour
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 163
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "pencolour" command returns a <xref href="ASE_SABIN_KHANAL_77358588.MyPenColour" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.MyPenColour" data-throw-if-not-resolved="false"></xref> for the "pencolour" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+  id: TestMakeCommand_Fill_ShouldReturnFill
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Fill_ShouldReturnFill()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Fill_ShouldReturnFill
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 182
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "fill" command returns a <xref href="ASE_SABIN_KHANAL_77358588.MyFill" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="ASE_SABIN_KHANAL_77358588.MyFill" data-throw-if-not-resolved="false"></xref> when the "fill" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Fill_ShouldReturnFill()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Fill_ShouldReturnFill()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+  id: TestMakeCommand_PenSize_ShouldReturnPenSize
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_PenSize_ShouldReturnPenSize()
+  nameWithType: CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_PenSize_ShouldReturnPenSize
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 201
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "pensize" command returns a <xref href="ASE_SABIN_KHANAL_77358588.PenSize" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.PenSize" data-throw-if-not-resolved="false"></xref> for the "pensize" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_PenSize_ShouldReturnPenSize()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_PenSize_ShouldReturnPenSize()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+  id: TestMakeCommand_Clear_ShouldReturnClear
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Clear_ShouldReturnClear()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Clear_ShouldReturnClear
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 220
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "clear" command returns a <xref href="ASE_SABIN_KHANAL_77358588.MyApp.Clear" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="ASE_SABIN_KHANAL_77358588.MyApp.Clear" data-throw-if-not-resolved="false"></xref> when the "clear" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Clear_ShouldReturnClear()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Clear_ShouldReturnClear()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+  id: TestMakeCommand_Reset_ShouldReturnReset
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Reset_ShouldReturnReset()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Reset_ShouldReturnReset
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 239
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "reset" command returns a <xref href="ASE_SABIN_KHANAL_77358588.MyApp.Reset" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.MyApp.Reset" data-throw-if-not-resolved="false"></xref> for the "reset" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Reset_ShouldReturnReset()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Reset_ShouldReturnReset()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke
+  id: TestMakeCommand_Poke_ShouldReturnApplicationPoke
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Poke_ShouldReturnApplicationPoke()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Poke_ShouldReturnApplicationPoke
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 258
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "poke" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationPoke" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationPoke" data-throw-if-not-resolved="false"></xref> when the "poke" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Poke_ShouldReturnApplicationPoke()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Poke_ShouldReturnApplicationPoke()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek
+  id: TestMakeCommand_Peek_ShouldReturnApplicationPeek
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Peek_ShouldReturnApplicationPeek()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Peek_ShouldReturnApplicationPeek
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 277
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "peek" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationPeek" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationPeek" data-throw-if-not-resolved="false"></xref> for the "peek" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Peek_ShouldReturnApplicationPeek()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Peek_ShouldReturnApplicationPeek()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse
+  id: TestMakeCommand_Else_ShouldReturnApplicationElse
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Else_ShouldReturnApplicationElse()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Else_ShouldReturnApplicationElse
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 296
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "else" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationElse" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationElse" data-throw-if-not-resolved="false"></xref> when the "else" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Else_ShouldReturnApplicationElse()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Else_ShouldReturnApplicationElse()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf
+  id: TestMakeCommand_If_ShouldReturnApplicationIf
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_If_ShouldReturnApplicationIf()
+  nameWithType: CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_If_ShouldReturnApplicationIf
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 315
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "if" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationIf" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationIf" data-throw-if-not-resolved="false"></xref> for the "if" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_If_ShouldReturnApplicationIf()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_If_ShouldReturnApplicationIf()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd
+  id: TestMakeCommand_End_ShouldReturnApplicationEnd
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_End_ShouldReturnApplicationEnd()
+  nameWithType: CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_End_ShouldReturnApplicationEnd
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 334
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "end" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationEnd" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationEnd" data-throw-if-not-resolved="false"></xref> when the "end" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_End_ShouldReturnApplicationEnd()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_End_ShouldReturnApplicationEnd()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile
+  id: TestMakeCommand_While_ShouldReturnApplicationWhile
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_While_ShouldReturnApplicationWhile()
+  nameWithType: CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_While_ShouldReturnApplicationWhile
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 353
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "while" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationWhile" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationWhile" data-throw-if-not-resolved="false"></xref> for the "while" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_While_ShouldReturnApplicationWhile()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_While_ShouldReturnApplicationWhile()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor
+  id: TestMakeCommand_For_ShouldReturnApplicationFor
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_For_ShouldReturnApplicationFor()
+  nameWithType: CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_For_ShouldReturnApplicationFor
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 372
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "for" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationFor" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationFor" data-throw-if-not-resolved="false"></xref> when the "for" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_For_ShouldReturnApplicationFor()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_For_ShouldReturnApplicationFor()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt
+  id: TestMakeCommand_Int_ShouldReturnApplicationInt
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Int_ShouldReturnApplicationInt()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Int_ShouldReturnApplicationInt
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 391
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "int" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationInt" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationInt" data-throw-if-not-resolved="false"></xref> for the "int" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Int_ShouldReturnApplicationInt()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Int_ShouldReturnApplicationInt()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal
+  id: TestMakeCommand_Real_ShouldReturnApplicationReal
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Real_ShouldReturnApplicationReal()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Real_ShouldReturnApplicationReal
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 410
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "real" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationReal" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationReal" data-throw-if-not-resolved="false"></xref> when the "real" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Real_ShouldReturnApplicationReal()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Real_ShouldReturnApplicationReal()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean
+  id: TestMakeCommand_Boolean_ShouldReturnApplicationBoolean
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Boolean_ShouldReturnApplicationBoolean()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Boolean_ShouldReturnApplicationBoolean
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 429
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "boolean" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationBoolean" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationBoolean" data-throw-if-not-resolved="false"></xref> for the "boolean" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Boolean_ShouldReturnApplicationBoolean()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Boolean_ShouldReturnApplicationBoolean()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall
+  id: TestMakeCommand_Call_ShouldReturnCall
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Call_ShouldReturnCall()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Call_ShouldReturnCall
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 448
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "call" command returns a <xref href="BOOSE.Call" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="BOOSE.Call" data-throw-if-not-resolved="false"></xref> when the "call" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Call_ShouldReturnCall()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Call_ShouldReturnCall()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation
+  id: TestMakeCommand_Evaluation_ShouldReturnEvaluation
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Evaluation_ShouldReturnEvaluation()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Evaluation_ShouldReturnEvaluation
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 467
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "evaluation" command returns a <xref href="BOOSE.Evaluation" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="BOOSE.Evaluation" data-throw-if-not-resolved="false"></xref> for the "evaluation" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Evaluation_ShouldReturnEvaluation()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Evaluation_ShouldReturnEvaluation()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray
+  id: TestMakeCommand_Array_ShouldReturnApplicationArray
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Array_ShouldReturnApplicationArray()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_Array_ShouldReturnApplicationArray
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 486
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "array" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationArray" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Ensures that the factory produces an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationArray" data-throw-if-not-resolved="false"></xref> when the "array" command is used.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Array_ShouldReturnApplicationArray()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Array_ShouldReturnApplicationArray()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod
+  id: TestMakeCommand_method_ShouldReturnApplicationMethod
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_method_ShouldReturnApplicationMethod()
+  nameWithType: CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_method_ShouldReturnApplicationMethod
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 505
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that the "method" command returns a <xref href="ASE_SABIN_KHANAL_77358588.ApplicationMethod" data-throw-if-not-resolved="false"></xref> object.
+  remarks: Verifies that the factory correctly creates an instance of <xref href="ASE_SABIN_KHANAL_77358588.ApplicationMethod" data-throw-if-not-resolved="false"></xref> for the "method" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_method_ShouldReturnApplicationMethod()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_method_ShouldReturnApplicationMethod()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  commentId: M:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  id: TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  parent: ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+  nameWithType: CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+    path: ASE_Test_Project/CommandFactoryTest.cs
+    startLine: 524
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests that invalid commands throw a <xref href="BOOSE.FactoryException" data-throw-if-not-resolved="false"></xref>.
+  remarks: Verifies that providing an invalid command string to the factory results in a <xref href="BOOSE.FactoryException" data-throw-if-not-resolved="false"></xref> being thrown.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(FactoryException))]
+
+      public void TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(FactoryException))>
+
+      Public Sub TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+  overload: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.FactoryException
+references:
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory
+  href: ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory.html
+  name: AppCommandFactory
+  nameWithType: AppCommandFactory
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory
+- uid: ASE_Test_Project
+  commentId: N:ASE_Test_Project
+  href: ASE_Test_Project.html
+  name: ASE_Test_Project
+  nameWithType: ASE_Test_Project
+  fullName: ASE_Test_Project
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Test_Project.CommandFactoryTest.SetUp*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.SetUp
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_SetUp
+  name: SetUp
+  nameWithType: CommandFactoryTest.SetUp
+  fullName: ASE_Test_Project.CommandFactoryTest.SetUp
+- uid: ASE_SABIN_KHANAL_77358588.MyCircle
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyCircle
+  href: ASE_SABIN_KHANAL_77358588.MyCircle.html
+  name: MyCircle
+  nameWithType: MyCircle
+  fullName: ASE_SABIN_KHANAL_77358588.MyCircle
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Circle_ShouldReturnAppCircle
+  name: TestMakeCommand_Circle_ShouldReturnAppCircle
+  nameWithType: CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+- uid: ASE_SABIN_KHANAL_77358588.MyMoveTo
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyMoveTo
+  href: ASE_SABIN_KHANAL_77358588.MyMoveTo.html
+  name: MyMoveTo
+  nameWithType: MyMoveTo
+  fullName: ASE_SABIN_KHANAL_77358588.MyMoveTo
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  name: TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  nameWithType: CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle
+  href: ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle.html
+  name: MyRectangle
+  nameWithType: MyRectangle
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Rect_ShouldReturnAppRectangle
+  name: TestMakeCommand_Rect_ShouldReturnAppRectangle
+  nameWithType: CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+- uid: ASE_SABIN_KHANAL_77358588.Triangle
+  commentId: T:ASE_SABIN_KHANAL_77358588.Triangle
+  href: ASE_SABIN_KHANAL_77358588.Triangle.html
+  name: Triangle
+  nameWithType: Triangle
+  fullName: ASE_SABIN_KHANAL_77358588.Triangle
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Tri_ShouldReturnTriangle
+  name: TestMakeCommand_Tri_ShouldReturnTriangle
+  nameWithType: CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+- uid: ASE_SABIN_KHANAL_77358588.WriteTo
+  commentId: T:ASE_SABIN_KHANAL_77358588.WriteTo
+  href: ASE_SABIN_KHANAL_77358588.WriteTo.html
+  name: WriteTo
+  nameWithType: WriteTo
+  fullName: ASE_SABIN_KHANAL_77358588.WriteTo
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  name: TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  nameWithType: CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+- uid: ASE_SABIN_KHANAL_77358588.MyDrawTo
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyDrawTo
+  href: ASE_SABIN_KHANAL_77358588.MyDrawTo.html
+  name: MyDrawTo
+  nameWithType: MyDrawTo
+  fullName: ASE_SABIN_KHANAL_77358588.MyDrawTo
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  name: TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  nameWithType: CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+- uid: ASE_SABIN_KHANAL_77358588.MyPenColour
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyPenColour
+  href: ASE_SABIN_KHANAL_77358588.MyPenColour.html
+  name: MyPenColour
+  nameWithType: MyPenColour
+  fullName: ASE_SABIN_KHANAL_77358588.MyPenColour
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  name: TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  nameWithType: CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+- uid: ASE_SABIN_KHANAL_77358588.MyFill
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyFill
+  href: ASE_SABIN_KHANAL_77358588.MyFill.html
+  name: MyFill
+  nameWithType: MyFill
+  fullName: ASE_SABIN_KHANAL_77358588.MyFill
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Fill_ShouldReturnFill
+  name: TestMakeCommand_Fill_ShouldReturnFill
+  nameWithType: CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+- uid: ASE_SABIN_KHANAL_77358588.PenSize
+  commentId: T:ASE_SABIN_KHANAL_77358588.PenSize
+  href: ASE_SABIN_KHANAL_77358588.PenSize.html
+  name: PenSize
+  nameWithType: PenSize
+  fullName: ASE_SABIN_KHANAL_77358588.PenSize
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_PenSize_ShouldReturnPenSize
+  name: TestMakeCommand_PenSize_ShouldReturnPenSize
+  nameWithType: CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.Clear
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.Clear
+  href: ASE_SABIN_KHANAL_77358588.MyApp.Clear.html
+  name: Clear
+  nameWithType: Clear
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.Clear
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Clear_ShouldReturnClear
+  name: TestMakeCommand_Clear_ShouldReturnClear
+  nameWithType: CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.Reset
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.Reset
+  href: ASE_SABIN_KHANAL_77358588.MyApp.Reset.html
+  name: Reset
+  nameWithType: Reset
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.Reset
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Reset_ShouldReturnReset
+  name: TestMakeCommand_Reset_ShouldReturnReset
+  nameWithType: CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  href: ASE_SABIN_KHANAL_77358588.ApplicationPoke.html
+  name: ApplicationPoke
+  nameWithType: ApplicationPoke
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Poke_ShouldReturnApplicationPoke
+  name: TestMakeCommand_Poke_ShouldReturnApplicationPoke
+  nameWithType: CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPeek
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationPeek
+  href: ASE_SABIN_KHANAL_77358588.ApplicationPeek.html
+  name: ApplicationPeek
+  nameWithType: ApplicationPeek
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPeek
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Peek_ShouldReturnApplicationPeek
+  name: TestMakeCommand_Peek_ShouldReturnApplicationPeek
+  nameWithType: CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationElse
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationElse
+  href: ASE_SABIN_KHANAL_77358588.ApplicationElse.html
+  name: ApplicationElse
+  nameWithType: ApplicationElse
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationElse
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Else_ShouldReturnApplicationElse
+  name: TestMakeCommand_Else_ShouldReturnApplicationElse
+  nameWithType: CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationIf
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationIf
+  href: ASE_SABIN_KHANAL_77358588.ApplicationIf.html
+  name: ApplicationIf
+  nameWithType: ApplicationIf
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationIf
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_If_ShouldReturnApplicationIf
+  name: TestMakeCommand_If_ShouldReturnApplicationIf
+  nameWithType: CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationEnd
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationEnd
+  href: ASE_SABIN_KHANAL_77358588.ApplicationEnd.html
+  name: ApplicationEnd
+  nameWithType: ApplicationEnd
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationEnd
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_End_ShouldReturnApplicationEnd
+  name: TestMakeCommand_End_ShouldReturnApplicationEnd
+  nameWithType: CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationWhile
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationWhile
+  href: ASE_SABIN_KHANAL_77358588.ApplicationWhile.html
+  name: ApplicationWhile
+  nameWithType: ApplicationWhile
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationWhile
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_While_ShouldReturnApplicationWhile
+  name: TestMakeCommand_While_ShouldReturnApplicationWhile
+  nameWithType: CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationFor
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationFor
+  href: ASE_SABIN_KHANAL_77358588.ApplicationFor.html
+  name: ApplicationFor
+  nameWithType: ApplicationFor
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationFor
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_For_ShouldReturnApplicationFor
+  name: TestMakeCommand_For_ShouldReturnApplicationFor
+  nameWithType: CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationInt
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationInt
+  href: ASE_SABIN_KHANAL_77358588.ApplicationInt.html
+  name: ApplicationInt
+  nameWithType: ApplicationInt
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationInt
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Int_ShouldReturnApplicationInt
+  name: TestMakeCommand_Int_ShouldReturnApplicationInt
+  nameWithType: CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationReal
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationReal
+  href: ASE_SABIN_KHANAL_77358588.ApplicationReal.html
+  name: ApplicationReal
+  nameWithType: ApplicationReal
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationReal
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Real_ShouldReturnApplicationReal
+  name: TestMakeCommand_Real_ShouldReturnApplicationReal
+  nameWithType: CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationBoolean
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationBoolean
+  href: ASE_SABIN_KHANAL_77358588.ApplicationBoolean.html
+  name: ApplicationBoolean
+  nameWithType: ApplicationBoolean
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationBoolean
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Boolean_ShouldReturnApplicationBoolean
+  name: TestMakeCommand_Boolean_ShouldReturnApplicationBoolean
+  nameWithType: CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean
+- uid: BOOSE.Call
+  commentId: T:BOOSE.Call
+  isExternal: true
+  name: Call
+  nameWithType: Call
+  fullName: BOOSE.Call
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Call_ShouldReturnCall
+  name: TestMakeCommand_Call_ShouldReturnCall
+  nameWithType: CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall
+- uid: BOOSE.Evaluation
+  commentId: T:BOOSE.Evaluation
+  parent: BOOSE
+  isExternal: true
+  name: Evaluation
+  nameWithType: Evaluation
+  fullName: BOOSE.Evaluation
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Evaluation_ShouldReturnEvaluation
+  name: TestMakeCommand_Evaluation_ShouldReturnEvaluation
+  nameWithType: CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationArray
+  parent: ASE_SABIN_KHANAL_77358588
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html
+  name: ApplicationArray
+  nameWithType: ApplicationArray
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Array_ShouldReturnApplicationArray
+  name: TestMakeCommand_Array_ShouldReturnApplicationArray
+  nameWithType: CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray
+- uid: ASE_SABIN_KHANAL_77358588
+  commentId: N:ASE_SABIN_KHANAL_77358588
+  href: ASE_SABIN_KHANAL_77358588.html
+  name: ASE_SABIN_KHANAL_77358588
+  nameWithType: ASE_SABIN_KHANAL_77358588
+  fullName: ASE_SABIN_KHANAL_77358588
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationMethod
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationMethod
+  href: ASE_SABIN_KHANAL_77358588.ApplicationMethod.html
+  name: ApplicationMethod
+  nameWithType: ApplicationMethod
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationMethod
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_method_ShouldReturnApplicationMethod
+  name: TestMakeCommand_method_ShouldReturnApplicationMethod
+  nameWithType: CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod
+- uid: BOOSE.FactoryException
+  commentId: T:BOOSE.FactoryException
+  parent: BOOSE
+  isExternal: true
+  name: FactoryException
+  nameWithType: FactoryException
+  fullName: BOOSE.FactoryException
+- uid: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException*
+  commentId: Overload:ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  href: ASE_Test_Project.CommandFactoryTest.html#ASE_Test_Project_CommandFactoryTest_TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  name: TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  nameWithType: CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  fullName: ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException

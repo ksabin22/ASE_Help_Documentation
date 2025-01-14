@@ -1,0 +1,802 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Test_Project.MyFillUnitTests
+  commentId: T:ASE_Test_Project.MyFillUnitTests
+  id: MyFillUnitTests
+  parent: ASE_Test_Project
+  children:
+  - ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleEmptyParameterGracefully
+  - ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleMultipleParametersGracefully
+  - ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleNullParametersGracefully
+  - ASE_Test_Project.MyFillUnitTests.Constructor_ShouldInitialize_WhenTextIsValid
+  - ASE_Test_Project.MyFillUnitTests.Constructor_ShouldThrowException_WhenTextIsNull
+  - ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextExceedsLength
+  - ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextIsWhitespace
+  - ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsFalse
+  - ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsInvalid
+  - ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldEnableFill_WhenTextIsTrue
+  - ASE_Test_Project.MyFillUnitTests.TestInitialize
+  langs:
+  - csharp
+  - vb
+  name: MyFillUnitTests
+  nameWithType: MyFillUnitTests
+  fullName: ASE_Test_Project.MyFillUnitTests
+  type: Class
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: MyFillUnitTests
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 15
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Provides unit tests for the <xref href="ASE_SABIN_KHANAL_77358588.MyFill" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class MyFillUnitTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class MyFillUnitTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.TestInitialize
+  commentId: M:ASE_Test_Project.MyFillUnitTests.TestInitialize
+  id: TestInitialize
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: TestInitialize()
+  nameWithType: MyFillUnitTests.TestInitialize()
+  fullName: ASE_Test_Project.MyFillUnitTests.TestInitialize()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: TestInitialize
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 26
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Initializes common test resources before each test is run.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void TestInitialize()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub TestInitialize()
+  overload: ASE_Test_Project.MyFillUnitTests.TestInitialize*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.Constructor_ShouldThrowException_WhenTextIsNull
+  commentId: M:ASE_Test_Project.MyFillUnitTests.Constructor_ShouldThrowException_WhenTextIsNull
+  id: Constructor_ShouldThrowException_WhenTextIsNull
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_ShouldThrowException_WhenTextIsNull()
+  nameWithType: MyFillUnitTests.Constructor_ShouldThrowException_WhenTextIsNull()
+  fullName: ASE_Test_Project.MyFillUnitTests.Constructor_ShouldThrowException_WhenTextIsNull()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: Constructor_ShouldThrowException_WhenTextIsNull
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 39
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Verifies that the constructor throws an <xref href="System.ArgumentNullException" data-throw-if-not-resolved="false"></xref> when the provided text is <code>null</code>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_ShouldThrowException_WhenTextIsNull()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_ShouldThrowException_WhenTextIsNull()
+  overload: ASE_Test_Project.MyFillUnitTests.Constructor_ShouldThrowException_WhenTextIsNull*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.Constructor_ShouldInitialize_WhenTextIsValid
+  commentId: M:ASE_Test_Project.MyFillUnitTests.Constructor_ShouldInitialize_WhenTextIsValid
+  id: Constructor_ShouldInitialize_WhenTextIsValid
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_ShouldInitialize_WhenTextIsValid()
+  nameWithType: MyFillUnitTests.Constructor_ShouldInitialize_WhenTextIsValid()
+  fullName: ASE_Test_Project.MyFillUnitTests.Constructor_ShouldInitialize_WhenTextIsValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: Constructor_ShouldInitialize_WhenTextIsValid
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 49
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Verifies that the constructor initializes successfully when provided with valid text.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_ShouldInitialize_WhenTextIsValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_ShouldInitialize_WhenTextIsValid()
+  overload: ASE_Test_Project.MyFillUnitTests.Constructor_ShouldInitialize_WhenTextIsValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextIsWhitespace
+  commentId: M:ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextIsWhitespace
+  id: Execute_ShouldNotEnableFill_WhenTextIsWhitespace
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_ShouldNotEnableFill_WhenTextIsWhitespace()
+  nameWithType: MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextIsWhitespace()
+  fullName: ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextIsWhitespace()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: Execute_ShouldNotEnableFill_WhenTextIsWhitespace
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 65
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Verifies that fill is not enabled when the provided text is whitespace.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_ShouldNotEnableFill_WhenTextIsWhitespace()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_ShouldNotEnableFill_WhenTextIsWhitespace()
+  overload: ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextIsWhitespace*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextExceedsLength
+  commentId: M:ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextExceedsLength
+  id: Execute_ShouldNotEnableFill_WhenTextExceedsLength
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_ShouldNotEnableFill_WhenTextExceedsLength()
+  nameWithType: MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextExceedsLength()
+  fullName: ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextExceedsLength()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: Execute_ShouldNotEnableFill_WhenTextExceedsLength
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 81
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Verifies that fill is not enabled when the provided text exceeds the allowed length.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_ShouldNotEnableFill_WhenTextExceedsLength()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_ShouldNotEnableFill_WhenTextExceedsLength()
+  overload: ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextExceedsLength*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleNullParametersGracefully
+  commentId: M:ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleNullParametersGracefully
+  id: CheckParameters_ShouldHandleNullParametersGracefully
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ShouldHandleNullParametersGracefully()
+  nameWithType: MyFillUnitTests.CheckParameters_ShouldHandleNullParametersGracefully()
+  fullName: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleNullParametersGracefully()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: CheckParameters_ShouldHandleNullParametersGracefully
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 97
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Verifies that the command gracefully handles <code>null</code> parameters.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_ShouldHandleNullParametersGracefully()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_ShouldHandleNullParametersGracefully()
+  overload: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleNullParametersGracefully*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleMultipleParametersGracefully
+  commentId: M:ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleMultipleParametersGracefully
+  id: CheckParameters_ShouldHandleMultipleParametersGracefully
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ShouldHandleMultipleParametersGracefully()
+  nameWithType: MyFillUnitTests.CheckParameters_ShouldHandleMultipleParametersGracefully()
+  fullName: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleMultipleParametersGracefully()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: CheckParameters_ShouldHandleMultipleParametersGracefully
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 114
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Verifies that the command gracefully handles multiple parameters being passed in.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_ShouldHandleMultipleParametersGracefully()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_ShouldHandleMultipleParametersGracefully()
+  overload: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleMultipleParametersGracefully*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleEmptyParameterGracefully
+  commentId: M:ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleEmptyParameterGracefully
+  id: CheckParameters_ShouldHandleEmptyParameterGracefully
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ShouldHandleEmptyParameterGracefully()
+  nameWithType: MyFillUnitTests.CheckParameters_ShouldHandleEmptyParameterGracefully()
+  fullName: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleEmptyParameterGracefully()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: CheckParameters_ShouldHandleEmptyParameterGracefully
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 131
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Verifies that the command gracefully handles an empty parameter.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_ShouldHandleEmptyParameterGracefully()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_ShouldHandleEmptyParameterGracefully()
+  overload: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleEmptyParameterGracefully*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldEnableFill_WhenTextIsTrue
+  commentId: M:ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldEnableFill_WhenTextIsTrue
+  id: SetFilled_ShouldEnableFill_WhenTextIsTrue
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: SetFilled_ShouldEnableFill_WhenTextIsTrue()
+  nameWithType: MyFillUnitTests.SetFilled_ShouldEnableFill_WhenTextIsTrue()
+  fullName: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldEnableFill_WhenTextIsTrue()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: SetFilled_ShouldEnableFill_WhenTextIsTrue
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 148
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Verifies that the global fill state is enabled when text equals "true".
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void SetFilled_ShouldEnableFill_WhenTextIsTrue()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub SetFilled_ShouldEnableFill_WhenTextIsTrue()
+  overload: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldEnableFill_WhenTextIsTrue*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsFalse
+  commentId: M:ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsFalse
+  id: SetFilled_ShouldDisableFill_WhenTextIsFalse
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: SetFilled_ShouldDisableFill_WhenTextIsFalse()
+  nameWithType: MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsFalse()
+  fullName: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsFalse()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: SetFilled_ShouldDisableFill_WhenTextIsFalse
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 164
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Verifies that the global fill state is disabled when text equals "false".
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void SetFilled_ShouldDisableFill_WhenTextIsFalse()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub SetFilled_ShouldDisableFill_WhenTextIsFalse()
+  overload: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsFalse*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsInvalid
+  commentId: M:ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsInvalid
+  id: SetFilled_ShouldDisableFill_WhenTextIsInvalid
+  parent: ASE_Test_Project.MyFillUnitTests
+  langs:
+  - csharp
+  - vb
+  name: SetFilled_ShouldDisableFill_WhenTextIsInvalid()
+  nameWithType: MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsInvalid()
+  fullName: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsInvalid()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_Test_Project/MyFillUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: SetFilled_ShouldDisableFill_WhenTextIsInvalid
+    path: ASE_Test_Project/MyFillUnitTests.cs
+    startLine: 181
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Verifies that the global fill state is disabled when the provided text is invalid.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void SetFilled_ShouldDisableFill_WhenTextIsInvalid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub SetFilled_ShouldDisableFill_WhenTextIsInvalid()
+  overload: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsInvalid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_SABIN_KHANAL_77358588.MyFill
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyFill
+  href: ASE_SABIN_KHANAL_77358588.MyFill.html
+  name: MyFill
+  nameWithType: MyFill
+  fullName: ASE_SABIN_KHANAL_77358588.MyFill
+- uid: ASE_Test_Project
+  commentId: N:ASE_Test_Project
+  href: ASE_Test_Project.html
+  name: ASE_Test_Project
+  nameWithType: ASE_Test_Project
+  fullName: ASE_Test_Project
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Test_Project.MyFillUnitTests.TestInitialize*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.TestInitialize
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_TestInitialize
+  name: TestInitialize
+  nameWithType: MyFillUnitTests.TestInitialize
+  fullName: ASE_Test_Project.MyFillUnitTests.TestInitialize
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: ASE_Test_Project.MyFillUnitTests.Constructor_ShouldThrowException_WhenTextIsNull*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.Constructor_ShouldThrowException_WhenTextIsNull
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_Constructor_ShouldThrowException_WhenTextIsNull
+  name: Constructor_ShouldThrowException_WhenTextIsNull
+  nameWithType: MyFillUnitTests.Constructor_ShouldThrowException_WhenTextIsNull
+  fullName: ASE_Test_Project.MyFillUnitTests.Constructor_ShouldThrowException_WhenTextIsNull
+- uid: ASE_Test_Project.MyFillUnitTests.Constructor_ShouldInitialize_WhenTextIsValid*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.Constructor_ShouldInitialize_WhenTextIsValid
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_Constructor_ShouldInitialize_WhenTextIsValid
+  name: Constructor_ShouldInitialize_WhenTextIsValid
+  nameWithType: MyFillUnitTests.Constructor_ShouldInitialize_WhenTextIsValid
+  fullName: ASE_Test_Project.MyFillUnitTests.Constructor_ShouldInitialize_WhenTextIsValid
+- uid: ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextIsWhitespace*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextIsWhitespace
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_Execute_ShouldNotEnableFill_WhenTextIsWhitespace
+  name: Execute_ShouldNotEnableFill_WhenTextIsWhitespace
+  nameWithType: MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextIsWhitespace
+  fullName: ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextIsWhitespace
+- uid: ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextExceedsLength*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextExceedsLength
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_Execute_ShouldNotEnableFill_WhenTextExceedsLength
+  name: Execute_ShouldNotEnableFill_WhenTextExceedsLength
+  nameWithType: MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextExceedsLength
+  fullName: ASE_Test_Project.MyFillUnitTests.Execute_ShouldNotEnableFill_WhenTextExceedsLength
+- uid: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleNullParametersGracefully*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleNullParametersGracefully
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_CheckParameters_ShouldHandleNullParametersGracefully
+  name: CheckParameters_ShouldHandleNullParametersGracefully
+  nameWithType: MyFillUnitTests.CheckParameters_ShouldHandleNullParametersGracefully
+  fullName: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleNullParametersGracefully
+- uid: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleMultipleParametersGracefully*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleMultipleParametersGracefully
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_CheckParameters_ShouldHandleMultipleParametersGracefully
+  name: CheckParameters_ShouldHandleMultipleParametersGracefully
+  nameWithType: MyFillUnitTests.CheckParameters_ShouldHandleMultipleParametersGracefully
+  fullName: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleMultipleParametersGracefully
+- uid: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleEmptyParameterGracefully*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleEmptyParameterGracefully
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_CheckParameters_ShouldHandleEmptyParameterGracefully
+  name: CheckParameters_ShouldHandleEmptyParameterGracefully
+  nameWithType: MyFillUnitTests.CheckParameters_ShouldHandleEmptyParameterGracefully
+  fullName: ASE_Test_Project.MyFillUnitTests.CheckParameters_ShouldHandleEmptyParameterGracefully
+- uid: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldEnableFill_WhenTextIsTrue*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldEnableFill_WhenTextIsTrue
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_SetFilled_ShouldEnableFill_WhenTextIsTrue
+  name: SetFilled_ShouldEnableFill_WhenTextIsTrue
+  nameWithType: MyFillUnitTests.SetFilled_ShouldEnableFill_WhenTextIsTrue
+  fullName: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldEnableFill_WhenTextIsTrue
+- uid: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsFalse*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsFalse
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_SetFilled_ShouldDisableFill_WhenTextIsFalse
+  name: SetFilled_ShouldDisableFill_WhenTextIsFalse
+  nameWithType: MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsFalse
+  fullName: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsFalse
+- uid: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsInvalid*
+  commentId: Overload:ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsInvalid
+  href: ASE_Test_Project.MyFillUnitTests.html#ASE_Test_Project_MyFillUnitTests_SetFilled_ShouldDisableFill_WhenTextIsInvalid
+  name: SetFilled_ShouldDisableFill_WhenTextIsInvalid
+  nameWithType: MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsInvalid
+  fullName: ASE_Test_Project.MyFillUnitTests.SetFilled_ShouldDisableFill_WhenTextIsInvalid

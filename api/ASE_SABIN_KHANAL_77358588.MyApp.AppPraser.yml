@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  id: AppPraser
+  parent: ASE_SABIN_KHANAL_77358588.MyApp
+  children:
+  - ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)
+  - ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseCommand(System.String)
+  - ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseProgram(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AppPraser
+  nameWithType: AppPraser
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  type: Class
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_SABIN_KHANAL_77358588/MyApp/AppParser.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: AppPraser
+    path: ASE_SABIN_KHANAL_77358588/MyApp/AppParser.cs
+    startLine: 16
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+  namespace: ASE_SABIN_KHANAL_77358588.MyApp
+  summary: >-
+    The <code>AppPraser</code> class implements the <xref href="BOOSE.IParser" data-throw-if-not-resolved="false"></xref> interface
+
+    to parse command lines into <xref href="BOOSE.ICommand" data-throw-if-not-resolved="false"></xref> objects that can be
+
+    processed by the application.
+  example: []
+  syntax:
+    content: 'public class AppPraser : IParser'
+    content.vb: Public Class AppPraser Implements IParser
+  inheritance:
+  - System.Object
+  implements:
+  - BOOSE.IParser
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)
+  commentId: M:ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)
+  id: '#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)'
+  parent: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  langs:
+  - csharp
+  - vb
+  name: AppPraser(CommandFactory, StoredProgram)
+  nameWithType: AppPraser.AppPraser(CommandFactory, StoredProgram)
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.AppPraser(BOOSE.CommandFactory, BOOSE.StoredProgram)
+  type: Constructor
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_SABIN_KHANAL_77358588/MyApp/AppParser.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: .ctor
+    path: ASE_SABIN_KHANAL_77358588/MyApp/AppParser.cs
+    startLine: 31
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+  namespace: ASE_SABIN_KHANAL_77358588.MyApp
+  summary: Initializes a new instance of the <xref href="ASE_SABIN_KHANAL_77358588.MyApp.AppPraser" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public AppPraser(CommandFactory factory, StoredProgram program)
+    parameters:
+    - id: factory
+      type: BOOSE.CommandFactory
+      description: An instance of <xref href="BOOSE.CommandFactory" data-throw-if-not-resolved="false"></xref> used to create command objects.
+    - id: program
+      type: BOOSE.StoredProgram
+      description: >-
+        An instance of <xref href="BOOSE.StoredProgram" data-throw-if-not-resolved="false"></xref> that manages stored variables
+
+        and other state information for the parsed commands.
+    content.vb: Public Sub New(factory As CommandFactory, program As StoredProgram)
+  overload: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.#ctor*
+  nameWithType.vb: AppPraser.New(CommandFactory, StoredProgram)
+  fullName.vb: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.New(BOOSE.CommandFactory, BOOSE.StoredProgram)
+  name.vb: New(CommandFactory, StoredProgram)
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseCommand(System.String)
+  commentId: M:ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseCommand(System.String)
+  id: ParseCommand(System.String)
+  parent: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  langs:
+  - csharp
+  - vb
+  name: ParseCommand(string)
+  nameWithType: AppPraser.ParseCommand(string)
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseCommand(string)
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_SABIN_KHANAL_77358588/MyApp/AppParser.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: ParseCommand
+    path: ASE_SABIN_KHANAL_77358588/MyApp/AppParser.cs
+    startLine: 50
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+  namespace: ASE_SABIN_KHANAL_77358588.MyApp
+  summary: >-
+    Parses a single line of input and returns an <xref href="BOOSE.ICommand" data-throw-if-not-resolved="false"></xref>
+
+    object based on the recognized command type and parameters.
+  example: []
+  syntax:
+    content: public virtual ICommand ParseCommand(string line)
+    parameters:
+    - id: line
+      type: System.String
+      description: A string containing the command and its parameters.
+    return:
+      type: BOOSE.ICommand
+      description: >-
+        An <xref href="BOOSE.ICommand" data-throw-if-not-resolved="false"></xref> object representing the parsed command, or
+
+        <code>null</code> if the line should be ignored (e.g., comment lines starting with '*').
+    content.vb: Public Overridable Function ParseCommand(line As String) As ICommand
+  overload: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseCommand*
+  exceptions:
+  - type: BOOSE.ParserException
+    commentId: T:BOOSE.ParserException
+    description: >-
+      Thrown when attempting to assign a value to a non-existing variable
+
+      or if the variable type is unknown.
+  implements:
+  - BOOSE.IParser.ParseCommand(System.String)
+  nameWithType.vb: AppPraser.ParseCommand(String)
+  fullName.vb: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseCommand(String)
+  name.vb: ParseCommand(String)
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseProgram(System.String)
+  commentId: M:ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseProgram(System.String)
+  id: ParseProgram(System.String)
+  parent: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  langs:
+  - csharp
+  - vb
+  name: ParseProgram(string)
+  nameWithType: AppPraser.ParseProgram(string)
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseProgram(string)
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_SABIN_KHANAL_77358588/MyApp/AppParser.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: ParseProgram
+    path: ASE_SABIN_KHANAL_77358588/MyApp/AppParser.cs
+    startLine: 110
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+  namespace: ASE_SABIN_KHANAL_77358588.MyApp
+  summary: >-
+    Parses an entire program source represented by a string, line by line.
+
+    Each line is parsed into a command, and errors are collected as needed.
+  example: []
+  syntax:
+    content: public virtual void ParseProgram(string program)
+    parameters:
+    - id: program
+      type: System.String
+      description: >-
+        A string containing the complete program to be parsed, with commands
+
+        separated by newline characters.
+    content.vb: Public Overridable Sub ParseProgram(program As String)
+  overload: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseProgram*
+  implements:
+  - BOOSE.IParser.ParseProgram(System.String)
+  nameWithType.vb: AppPraser.ParseProgram(String)
+  fullName.vb: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseProgram(String)
+  name.vb: ParseProgram(String)
+references:
+- uid: BOOSE.IParser
+  commentId: T:BOOSE.IParser
+  parent: BOOSE
+  isExternal: true
+  name: IParser
+  nameWithType: IParser
+  fullName: BOOSE.IParser
+- uid: BOOSE.ICommand
+  commentId: T:BOOSE.ICommand
+  parent: BOOSE
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: BOOSE.ICommand
+- uid: ASE_SABIN_KHANAL_77358588.MyApp
+  commentId: N:ASE_SABIN_KHANAL_77358588.MyApp
+  href: ASE_SABIN_KHANAL_77358588.html
+  name: ASE_SABIN_KHANAL_77358588.MyApp
+  nameWithType: ASE_SABIN_KHANAL_77358588.MyApp
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588
+    name: ASE_SABIN_KHANAL_77358588
+    href: ASE_SABIN_KHANAL_77358588.html
+  - name: .
+  - uid: ASE_SABIN_KHANAL_77358588.MyApp
+    name: MyApp
+    href: ASE_SABIN_KHANAL_77358588.MyApp.html
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588
+    name: ASE_SABIN_KHANAL_77358588
+    href: ASE_SABIN_KHANAL_77358588.html
+  - name: .
+  - uid: ASE_SABIN_KHANAL_77358588.MyApp
+    name: MyApp
+    href: ASE_SABIN_KHANAL_77358588.MyApp.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  commentId: T:ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+  href: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.html
+  name: AppPraser
+  nameWithType: AppPraser
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser
+- uid: BOOSE.CommandFactory
+  commentId: T:BOOSE.CommandFactory
+  parent: BOOSE
+  isExternal: true
+  name: CommandFactory
+  nameWithType: CommandFactory
+  fullName: BOOSE.CommandFactory
+- uid: BOOSE.StoredProgram
+  commentId: T:BOOSE.StoredProgram
+  parent: BOOSE
+  isExternal: true
+  name: StoredProgram
+  nameWithType: StoredProgram
+  fullName: BOOSE.StoredProgram
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.#ctor*
+  commentId: Overload:ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.#ctor
+  href: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.html#ASE_SABIN_KHANAL_77358588_MyApp_AppPraser__ctor_BOOSE_CommandFactory_BOOSE_StoredProgram_
+  name: AppPraser
+  nameWithType: AppPraser.AppPraser
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.AppPraser
+  nameWithType.vb: AppPraser.New
+  fullName.vb: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.New
+  name.vb: New
+- uid: BOOSE.ParserException
+  commentId: T:BOOSE.ParserException
+  isExternal: true
+  name: ParserException
+  nameWithType: ParserException
+  fullName: BOOSE.ParserException
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseCommand*
+  commentId: Overload:ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseCommand
+  href: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.html#ASE_SABIN_KHANAL_77358588_MyApp_AppPraser_ParseCommand_System_String_
+  name: ParseCommand
+  nameWithType: AppPraser.ParseCommand
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseCommand
+- uid: BOOSE.IParser.ParseCommand(System.String)
+  commentId: M:BOOSE.IParser.ParseCommand(System.String)
+  parent: BOOSE.IParser
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ParseCommand(string)
+  nameWithType: IParser.ParseCommand(string)
+  fullName: BOOSE.IParser.ParseCommand(string)
+  nameWithType.vb: IParser.ParseCommand(String)
+  fullName.vb: BOOSE.IParser.ParseCommand(String)
+  name.vb: ParseCommand(String)
+  spec.csharp:
+  - uid: BOOSE.IParser.ParseCommand(System.String)
+    name: ParseCommand
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.IParser.ParseCommand(System.String)
+    name: ParseCommand
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseProgram*
+  commentId: Overload:ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseProgram
+  href: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.html#ASE_SABIN_KHANAL_77358588_MyApp_AppPraser_ParseProgram_System_String_
+  name: ParseProgram
+  nameWithType: AppPraser.ParseProgram
+  fullName: ASE_SABIN_KHANAL_77358588.MyApp.AppPraser.ParseProgram
+- uid: BOOSE.IParser.ParseProgram(System.String)
+  commentId: M:BOOSE.IParser.ParseProgram(System.String)
+  parent: BOOSE.IParser
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ParseProgram(string)
+  nameWithType: IParser.ParseProgram(string)
+  fullName: BOOSE.IParser.ParseProgram(string)
+  nameWithType.vb: IParser.ParseProgram(String)
+  fullName.vb: BOOSE.IParser.ParseProgram(String)
+  name.vb: ParseProgram(String)
+  spec.csharp:
+  - uid: BOOSE.IParser.ParseProgram(System.String)
+    name: ParseProgram
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.IParser.ParseProgram(System.String)
+    name: ParseProgram
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

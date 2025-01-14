@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CommandFactoryTest | ASE Project </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CommandFactoryTest | ASE Project ">
+      
+      <meta name="description" content="Test class to verify the behavior of the  and its command creation logic.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/new/main/apiSpec/new?filename=ASE_Test_Project_CommandFactoryTest.md&amp;value=---%0Auid%3A%20ASE_Test_Project.CommandFactoryTest%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ASE Project">
+            ASE Project
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ASE_Test_Project.CommandFactoryTest">
+
+
+
+  <h1 id="ASE_Test_Project_CommandFactoryTest" data-uid="ASE_Test_Project.CommandFactoryTest" class="text-break">
+Class CommandFactoryTest  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ASE_Test_Project.html">ASE_Test_Project</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ASE_Test_Project.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Test class to verify the behavior of the <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory.html">AppCommandFactory</a> and its command creation logic.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestClass]
+public class CommandFactoryTest</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CommandFactoryTest</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="ASE_Test_Project_CommandFactoryTest_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This class contains a series of unit tests that ensure the <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory.html">AppCommandFactory</a> correctly
+creates instances of command objects based on the provided command strings. It also verifies that
+invalid commands appropriately throw exceptions.</p>
+</div>
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_SetUp_" data-uid="ASE_Test_Project.CommandFactoryTest.SetUp*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_SetUp" data-uid="ASE_Test_Project.CommandFactoryTest.SetUp">
+  SetUp()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory.html">AppCommandFactory</a> before each test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestInitialize]
+public void SetUp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_SetUp_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is executed before each test method to ensure that a fresh instance of
+<a class="xref" href="ASE_SABIN_KHANAL_77358588.MyApp.AppCommandFactory.html">AppCommandFactory</a> is used, preventing state leakage between tests.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Array_ShouldReturnApplicationArray_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Array_ShouldReturnApplicationArray" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Array_ShouldReturnApplicationArray">
+  TestMakeCommand_Array_ShouldReturnApplicationArray()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L487"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;array&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationArray.html">ApplicationArray</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Array_ShouldReturnApplicationArray()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Array_ShouldReturnApplicationArray_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationArray.html">ApplicationArray</a> when the &quot;array&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Boolean_ShouldReturnApplicationBoolean_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Boolean_ShouldReturnApplicationBoolean" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Boolean_ShouldReturnApplicationBoolean">
+  TestMakeCommand_Boolean_ShouldReturnApplicationBoolean()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L430"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;boolean&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationBoolean.html">ApplicationBoolean</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Boolean_ShouldReturnApplicationBoolean()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Boolean_ShouldReturnApplicationBoolean_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationBoolean.html">ApplicationBoolean</a> for the &quot;boolean&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Call_ShouldReturnCall_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Call_ShouldReturnCall" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Call_ShouldReturnCall">
+  TestMakeCommand_Call_ShouldReturnCall()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L449"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;call&quot; command returns a <span class="xref">BOOSE.Call</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Call_ShouldReturnCall()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Call_ShouldReturnCall_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <span class="xref">BOOSE.Call</span> when the &quot;call&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Circle_ShouldReturnAppCircle_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Circle_ShouldReturnAppCircle" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle">
+  TestMakeCommand_Circle_ShouldReturnAppCircle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;circle&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyCircle.html">MyCircle</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Circle_ShouldReturnAppCircle()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Circle_ShouldReturnAppCircle_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that when the &quot;circle&quot; command is provided to the factory, it correctly creates an instance
+of <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyCircle.html">MyCircle</a>.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Clear_ShouldReturnClear_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Clear_ShouldReturnClear" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear">
+  TestMakeCommand_Clear_ShouldReturnClear()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;clear&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyApp.Clear.html">Clear</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Clear_ShouldReturnClear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Clear_ShouldReturnClear_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyApp.Clear.html">Clear</a> when the &quot;clear&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_DrawTo_ShouldReturnAppDrawTo_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_DrawTo_ShouldReturnAppDrawTo" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo">
+  TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;drawto&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyDrawTo.html">MyDrawTo</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_DrawTo_ShouldReturnAppDrawTo_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyDrawTo.html">MyDrawTo</a> when the &quot;drawto&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Else_ShouldReturnApplicationElse_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Else_ShouldReturnApplicationElse" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Else_ShouldReturnApplicationElse">
+  TestMakeCommand_Else_ShouldReturnApplicationElse()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;else&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationElse.html">ApplicationElse</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Else_ShouldReturnApplicationElse()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Else_ShouldReturnApplicationElse_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationElse.html">ApplicationElse</a> when the &quot;else&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_End_ShouldReturnApplicationEnd_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_End_ShouldReturnApplicationEnd" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_End_ShouldReturnApplicationEnd">
+  TestMakeCommand_End_ShouldReturnApplicationEnd()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L335"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;end&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationEnd.html">ApplicationEnd</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_End_ShouldReturnApplicationEnd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_End_ShouldReturnApplicationEnd_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationEnd.html">ApplicationEnd</a> when the &quot;end&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Evaluation_ShouldReturnEvaluation_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Evaluation_ShouldReturnEvaluation" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Evaluation_ShouldReturnEvaluation">
+  TestMakeCommand_Evaluation_ShouldReturnEvaluation()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L468"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;evaluation&quot; command returns a <span class="xref">BOOSE.Evaluation</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Evaluation_ShouldReturnEvaluation()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Evaluation_ShouldReturnEvaluation_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <span class="xref">BOOSE.Evaluation</span> for the &quot;evaluation&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Fill_ShouldReturnFill_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Fill_ShouldReturnFill" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill">
+  TestMakeCommand_Fill_ShouldReturnFill()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;fill&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyFill.html">MyFill</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Fill_ShouldReturnFill()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Fill_ShouldReturnFill_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyFill.html">MyFill</a> when the &quot;fill&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_For_ShouldReturnApplicationFor_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_For_ShouldReturnApplicationFor" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_For_ShouldReturnApplicationFor">
+  TestMakeCommand_For_ShouldReturnApplicationFor()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;for&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationFor.html">ApplicationFor</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_For_ShouldReturnApplicationFor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_For_ShouldReturnApplicationFor_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationFor.html">ApplicationFor</a> when the &quot;for&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_If_ShouldReturnApplicationIf_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_If_ShouldReturnApplicationIf" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_If_ShouldReturnApplicationIf">
+  TestMakeCommand_If_ShouldReturnApplicationIf()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;if&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationIf.html">ApplicationIf</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_If_ShouldReturnApplicationIf()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_If_ShouldReturnApplicationIf_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationIf.html">ApplicationIf</a> for the &quot;if&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Int_ShouldReturnApplicationInt_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Int_ShouldReturnApplicationInt" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Int_ShouldReturnApplicationInt">
+  TestMakeCommand_Int_ShouldReturnApplicationInt()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L392"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;int&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationInt.html">ApplicationInt</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Int_ShouldReturnApplicationInt()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Int_ShouldReturnApplicationInt_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationInt.html">ApplicationInt</a> for the &quot;int&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_InvalidCommand_ShouldThrowFactoryException_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_InvalidCommand_ShouldThrowFactoryException" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException">
+  TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L525"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that invalid commands throw a <span class="xref">BOOSE.FactoryException</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+[ExpectedException(typeof(FactoryException))]
+public void TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_InvalidCommand_ShouldThrowFactoryException_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that providing an invalid command string to the factory results in a <span class="xref">BOOSE.FactoryException</span> being thrown.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_MoveTo_ShouldReturnAppMoveTo_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_MoveTo_ShouldReturnAppMoveTo" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo">
+  TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;moveto&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyMoveTo.html">MyMoveTo</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_MoveTo_ShouldReturnAppMoveTo_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyMoveTo.html">MyMoveTo</a> when the &quot;moveto&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Peek_ShouldReturnApplicationPeek_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Peek_ShouldReturnApplicationPeek" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Peek_ShouldReturnApplicationPeek">
+  TestMakeCommand_Peek_ShouldReturnApplicationPeek()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;peek&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationPeek.html">ApplicationPeek</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Peek_ShouldReturnApplicationPeek()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Peek_ShouldReturnApplicationPeek_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationPeek.html">ApplicationPeek</a> for the &quot;peek&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_PenColour_ShouldReturnAppPenColour_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_PenColour_ShouldReturnAppPenColour" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour">
+  TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;pencolour&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyPenColour.html">MyPenColour</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_PenColour_ShouldReturnAppPenColour()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_PenColour_ShouldReturnAppPenColour_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyPenColour.html">MyPenColour</a> for the &quot;pencolour&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_PenSize_ShouldReturnPenSize_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_PenSize_ShouldReturnPenSize" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize">
+  TestMakeCommand_PenSize_ShouldReturnPenSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;pensize&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.PenSize.html">PenSize</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_PenSize_ShouldReturnPenSize()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_PenSize_ShouldReturnPenSize_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.PenSize.html">PenSize</a> for the &quot;pensize&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Poke_ShouldReturnApplicationPoke_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Poke_ShouldReturnApplicationPoke" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Poke_ShouldReturnApplicationPoke">
+  TestMakeCommand_Poke_ShouldReturnApplicationPoke()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;poke&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationPoke.html">ApplicationPoke</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Poke_ShouldReturnApplicationPoke()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Poke_ShouldReturnApplicationPoke_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationPoke.html">ApplicationPoke</a> when the &quot;poke&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Real_ShouldReturnApplicationReal_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Real_ShouldReturnApplicationReal" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Real_ShouldReturnApplicationReal">
+  TestMakeCommand_Real_ShouldReturnApplicationReal()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L411"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;real&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationReal.html">ApplicationReal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Real_ShouldReturnApplicationReal()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Real_ShouldReturnApplicationReal_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationReal.html">ApplicationReal</a> when the &quot;real&quot; command is used.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Rect_ShouldReturnAppRectangle_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Rect_ShouldReturnAppRectangle" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle">
+  TestMakeCommand_Rect_ShouldReturnAppRectangle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;rect&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle.html">MyRectangle</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Rect_ShouldReturnAppRectangle()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Rect_ShouldReturnAppRectangle_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyApp.MyRectangle.html">MyRectangle</a> for the &quot;rect&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Reset_ShouldReturnReset_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Reset_ShouldReturnReset" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset">
+  TestMakeCommand_Reset_ShouldReturnReset()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;reset&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyApp.Reset.html">Reset</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Reset_ShouldReturnReset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Reset_ShouldReturnReset_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.MyApp.Reset.html">Reset</a> for the &quot;reset&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Tri_ShouldReturnTriangle_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Tri_ShouldReturnTriangle" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle">
+  TestMakeCommand_Tri_ShouldReturnTriangle()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;tri&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.Triangle.html">Triangle</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_Tri_ShouldReturnTriangle()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Tri_ShouldReturnTriangle_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Ensures that the factory produces an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.Triangle.html">Triangle</a> when the &quot;tri&quot; command is provided.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_While_ShouldReturnApplicationWhile_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_While_ShouldReturnApplicationWhile" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_While_ShouldReturnApplicationWhile">
+  TestMakeCommand_While_ShouldReturnApplicationWhile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L354"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;while&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationWhile.html">ApplicationWhile</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_While_ShouldReturnApplicationWhile()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_While_ShouldReturnApplicationWhile_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationWhile.html">ApplicationWhile</a> for the &quot;while&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_WriteTo_ShouldReturnWriteTo_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_WriteTo_ShouldReturnWriteTo" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo">
+  TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;writeto&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.WriteTo.html">WriteTo</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_WriteTo_ShouldReturnWriteTo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_WriteTo_ShouldReturnWriteTo_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.WriteTo.html">WriteTo</a> for the &quot;writeto&quot; command.</p>
+</div>
+
+
+
+
+  <a id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_method_ShouldReturnApplicationMethod_" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod*"></a>
+
+  <h3 id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_method_ShouldReturnApplicationMethod" data-uid="ASE_Test_Project.CommandFactoryTest.TestMakeCommand_method_ShouldReturnApplicationMethod">
+  TestMakeCommand_method_ShouldReturnApplicationMethod()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L506"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests that the &quot;method&quot; command returns a <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationMethod.html">ApplicationMethod</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void TestMakeCommand_method_ShouldReturnApplicationMethod()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="ASE_Test_Project_CommandFactoryTest_TestMakeCommand_method_ShouldReturnApplicationMethod_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Verifies that the factory correctly creates an instance of <a class="xref" href="ASE_SABIN_KHANAL_77358588.ApplicationMethod.html">ApplicationMethod</a> for the &quot;method&quot; command.</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22/blob/main/ASE_SABIN_KHANAL_77358588/ASE_Test_Project/CommandFactoryTest.cs/#L22" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1331 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  id: ApplicationPoke
+  parent: ASE_SABIN_KHANAL_77358588
+  children:
+  - ASE_SABIN_KHANAL_77358588.ApplicationPoke.#ctor
+  - ASE_SABIN_KHANAL_77358588.ApplicationPoke.CheckParameters(System.String[])
+  - ASE_SABIN_KHANAL_77358588.ApplicationPoke.Compile
+  - ASE_SABIN_KHANAL_77358588.ApplicationPoke.Execute
+  - ASE_SABIN_KHANAL_77358588.ApplicationPoke.Set(BOOSE.StoredProgram,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ApplicationPoke
+  nameWithType: ApplicationPoke
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  type: Class
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: ApplicationPoke
+    path: ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+    startLine: 12
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+  namespace: ASE_SABIN_KHANAL_77358588
+  summary: Represents a Poke operation that modifies elements in an array within a BOOSE program.
+  example: []
+  syntax:
+    content: 'public class ApplicationPoke : ApplicationArray, ICommand'
+    content.vb: Public Class ApplicationPoke Inherits ApplicationArray Implements ICommand
+  inheritance:
+  - System.Object
+  - BOOSE.Command
+  - BOOSE.Evaluation
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray
+  implements:
+  - BOOSE.ICommand
+  inheritedMembers:
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.PEEK
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.POKE
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.type
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.IntValue
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.RealValue
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.rowsCount
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.columnsCount
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.intArray
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.realArray
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.pokeValue
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.peekValue
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.rowExpression
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.columnExpression
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.rowCurrent
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.columnCurrent
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.Rows
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.Columns
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.ArrayRestrictions
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.ReduceRestrictionCounter
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersCompile(System.Boolean)
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersExecute(System.Boolean)
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.SetIntArray(System.Int32,System.Int32,System.Int32)
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.SetRealArray(System.Double,System.Int32,System.Int32)
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.GetIntArray(System.Int32,System.Int32)
+  - ASE_SABIN_KHANAL_77358588.ApplicationArray.GetRealArray(System.Int32,System.Int32)
+  - BOOSE.Evaluation.expression
+  - BOOSE.Evaluation.evaluatedExpression
+  - BOOSE.Evaluation.varName
+  - BOOSE.Evaluation.value
+  - BOOSE.Evaluation.ProcessExpression(System.String)
+  - BOOSE.Evaluation.Expression
+  - BOOSE.Evaluation.VarName
+  - BOOSE.Evaluation.Value
+  - BOOSE.Evaluation.Local
+  - BOOSE.Command.program
+  - BOOSE.Command.parameterList
+  - BOOSE.Command.parameters
+  - BOOSE.Command.paramsint
+  - BOOSE.Command.ProcessParameters(System.String)
+  - BOOSE.Command.ToString
+  - BOOSE.Command.Program
+  - BOOSE.Command.Name
+  - BOOSE.Command.ParameterList
+  - BOOSE.Command.Parameters
+  - BOOSE.Command.Paramsint
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke.#ctor
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationPoke.#ctor
+  id: '#ctor'
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  langs:
+  - csharp
+  - vb
+  name: ApplicationPoke()
+  nameWithType: ApplicationPoke.ApplicationPoke()
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke.ApplicationPoke()
+  type: Constructor
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: .ctor
+    path: ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+    startLine: 17
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+  namespace: ASE_SABIN_KHANAL_77358588
+  summary: Initializes a new instance of the <xref href="ASE_SABIN_KHANAL_77358588.ApplicationPoke" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public ApplicationPoke()
+    content.vb: Public Sub New()
+  overload: ASE_SABIN_KHANAL_77358588.ApplicationPoke.#ctor*
+  nameWithType.vb: ApplicationPoke.New()
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationPoke.New()
+  name.vb: New()
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke.CheckParameters(System.String[])
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationPoke.CheckParameters(System.String[])
+  id: CheckParameters(System.String[])
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters(string[])
+  nameWithType: ApplicationPoke.CheckParameters(string[])
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke.CheckParameters(string[])
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: CheckParameters
+    path: ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+    startLine: 26
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+  namespace: ASE_SABIN_KHANAL_77358588
+  summary: Validates the parameters required for the Poke operation.
+  example: []
+  syntax:
+    content: public override void CheckParameters(string[] parameter)
+    parameters:
+    - id: parameter
+      type: System.String[]
+      description: An array of string parameters to be validated.
+    content.vb: Public Overrides Sub CheckParameters(parameter As String())
+  overridden: ASE_SABIN_KHANAL_77358588.ApplicationArray.CheckParameters(System.String[])
+  overload: ASE_SABIN_KHANAL_77358588.ApplicationPoke.CheckParameters*
+  exceptions:
+  - type: BOOSE.CommandException
+    commentId: T:BOOSE.CommandException
+    description: Thrown when the number of parameters is invalid.
+  nameWithType.vb: ApplicationPoke.CheckParameters(String())
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationPoke.CheckParameters(String())
+  name.vb: CheckParameters(String())
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Compile
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationPoke.Compile
+  id: Compile
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  langs:
+  - csharp
+  - vb
+  name: Compile()
+  nameWithType: ApplicationPoke.Compile()
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Compile()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: Compile
+    path: ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+    startLine: 37
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+  namespace: ASE_SABIN_KHANAL_77358588
+  summary: Prepares the array parameters for execution, specifically for a Poke operation.
+  example: []
+  syntax:
+    content: public override void Compile()
+    content.vb: Public Overrides Sub Compile()
+  overridden: ASE_SABIN_KHANAL_77358588.ApplicationArray.Compile
+  overload: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Compile*
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Execute
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationPoke.Execute
+  id: Execute
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: ApplicationPoke.Execute()
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Execute()
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: Execute
+    path: ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+    startLine: 45
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+  namespace: ASE_SABIN_KHANAL_77358588
+  summary: Executes the Poke operation, allowing modification of targeted array elements.
+  example: []
+  syntax:
+    content: public override void Execute()
+    content.vb: Public Overrides Sub Execute()
+  overridden: ASE_SABIN_KHANAL_77358588.ApplicationArray.Execute
+  overload: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Execute*
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Set(BOOSE.StoredProgram,System.String)
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationPoke.Set(BOOSE.StoredProgram,System.String)
+  id: Set(BOOSE.StoredProgram,System.String)
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  langs:
+  - csharp
+  - vb
+  name: Set(StoredProgram, string)
+  nameWithType: ApplicationPoke.Set(StoredProgram, string)
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Set(BOOSE.StoredProgram, string)
+  type: Method
+  source:
+    remote:
+      path: ASE_SABIN_KHANAL_77358588/ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-ksabin22.git
+    id: Set
+    path: ASE_SABIN_KHANAL_77358588/ApplicationPoke.cs
+    startLine: 55
+  assemblies:
+  - ASE_SABIN_KHANAL_77358588
+  namespace: ASE_SABIN_KHANAL_77358588
+  summary: Sets the stored program and parameter list for this Poke operation.
+  example: []
+  syntax:
+    content: public override void Set(StoredProgram program, string paramsList)
+    parameters:
+    - id: program
+      type: BOOSE.StoredProgram
+      description: The stored program where this operation will be performed.
+    - id: paramsList
+      type: System.String
+      description: A string containing the parameters for this operation.
+    content.vb: Public Overrides Sub [Set](program As StoredProgram, paramsList As String)
+  overridden: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  overload: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Set*
+  nameWithType.vb: ApplicationPoke.Set(StoredProgram, String)
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Set(BOOSE.StoredProgram, String)
+  name.vb: Set(StoredProgram, String)
+references:
+- uid: ASE_SABIN_KHANAL_77358588
+  commentId: N:ASE_SABIN_KHANAL_77358588
+  href: ASE_SABIN_KHANAL_77358588.html
+  name: ASE_SABIN_KHANAL_77358588
+  nameWithType: ASE_SABIN_KHANAL_77358588
+  fullName: ASE_SABIN_KHANAL_77358588
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: BOOSE.Command
+  commentId: T:BOOSE.Command
+  parent: BOOSE
+  isExternal: true
+  name: Command
+  nameWithType: Command
+  fullName: BOOSE.Command
+- uid: BOOSE.Evaluation
+  commentId: T:BOOSE.Evaluation
+  parent: BOOSE
+  isExternal: true
+  name: Evaluation
+  nameWithType: Evaluation
+  fullName: BOOSE.Evaluation
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationArray
+  parent: ASE_SABIN_KHANAL_77358588
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html
+  name: ApplicationArray
+  nameWithType: ApplicationArray
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray
+- uid: BOOSE.ICommand
+  commentId: T:BOOSE.ICommand
+  parent: BOOSE
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: BOOSE.ICommand
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.PEEK
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.PEEK
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_PEEK
+  name: PEEK
+  nameWithType: ApplicationArray.PEEK
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.PEEK
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.POKE
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.POKE
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_POKE
+  name: POKE
+  nameWithType: ApplicationArray.POKE
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.POKE
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.type
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.type
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_type
+  name: type
+  nameWithType: ApplicationArray.type
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.type
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.IntValue
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.IntValue
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_IntValue
+  name: IntValue
+  nameWithType: ApplicationArray.IntValue
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.IntValue
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.RealValue
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.RealValue
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_RealValue
+  name: RealValue
+  nameWithType: ApplicationArray.RealValue
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.RealValue
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.rowsCount
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.rowsCount
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_rowsCount
+  name: rowsCount
+  nameWithType: ApplicationArray.rowsCount
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.rowsCount
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.columnsCount
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.columnsCount
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_columnsCount
+  name: columnsCount
+  nameWithType: ApplicationArray.columnsCount
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.columnsCount
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.intArray
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.intArray
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_intArray
+  name: intArray
+  nameWithType: ApplicationArray.intArray
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.intArray
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.realArray
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.realArray
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_realArray
+  name: realArray
+  nameWithType: ApplicationArray.realArray
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.realArray
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.pokeValue
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.pokeValue
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_pokeValue
+  name: pokeValue
+  nameWithType: ApplicationArray.pokeValue
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.pokeValue
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.peekValue
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.peekValue
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_peekValue
+  name: peekValue
+  nameWithType: ApplicationArray.peekValue
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.peekValue
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.rowExpression
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.rowExpression
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_rowExpression
+  name: rowExpression
+  nameWithType: ApplicationArray.rowExpression
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.rowExpression
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.columnExpression
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.columnExpression
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_columnExpression
+  name: columnExpression
+  nameWithType: ApplicationArray.columnExpression
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.columnExpression
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.rowCurrent
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.rowCurrent
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_rowCurrent
+  name: rowCurrent
+  nameWithType: ApplicationArray.rowCurrent
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.rowCurrent
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.columnCurrent
+  commentId: F:ASE_SABIN_KHANAL_77358588.ApplicationArray.columnCurrent
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_columnCurrent
+  name: columnCurrent
+  nameWithType: ApplicationArray.columnCurrent
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.columnCurrent
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.Rows
+  commentId: P:ASE_SABIN_KHANAL_77358588.ApplicationArray.Rows
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_Rows
+  name: Rows
+  nameWithType: ApplicationArray.Rows
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.Rows
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.Columns
+  commentId: P:ASE_SABIN_KHANAL_77358588.ApplicationArray.Columns
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_Columns
+  name: Columns
+  nameWithType: ApplicationArray.Columns
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.Columns
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ArrayRestrictions
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.ArrayRestrictions
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ArrayRestrictions
+  name: ArrayRestrictions()
+  nameWithType: ApplicationArray.ArrayRestrictions()
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.ArrayRestrictions()
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ArrayRestrictions
+    name: ArrayRestrictions
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ArrayRestrictions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ArrayRestrictions
+    name: ArrayRestrictions
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ArrayRestrictions
+  - name: (
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ReduceRestrictionCounter
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.ReduceRestrictionCounter
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ReduceRestrictionCounter
+  name: ReduceRestrictionCounter()
+  nameWithType: ApplicationArray.ReduceRestrictionCounter()
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.ReduceRestrictionCounter()
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ReduceRestrictionCounter
+    name: ReduceRestrictionCounter
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ReduceRestrictionCounter
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ReduceRestrictionCounter
+    name: ReduceRestrictionCounter
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ReduceRestrictionCounter
+  - name: (
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersCompile(System.Boolean)
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersCompile(System.Boolean)
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  isExternal: true
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ProcessArrayParametersCompile_System_Boolean_
+  name: ProcessArrayParametersCompile(bool)
+  nameWithType: ApplicationArray.ProcessArrayParametersCompile(bool)
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersCompile(bool)
+  nameWithType.vb: ApplicationArray.ProcessArrayParametersCompile(Boolean)
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersCompile(Boolean)
+  name.vb: ProcessArrayParametersCompile(Boolean)
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersCompile(System.Boolean)
+    name: ProcessArrayParametersCompile
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ProcessArrayParametersCompile_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersCompile(System.Boolean)
+    name: ProcessArrayParametersCompile
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ProcessArrayParametersCompile_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersExecute(System.Boolean)
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersExecute(System.Boolean)
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  isExternal: true
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ProcessArrayParametersExecute_System_Boolean_
+  name: ProcessArrayParametersExecute(bool)
+  nameWithType: ApplicationArray.ProcessArrayParametersExecute(bool)
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersExecute(bool)
+  nameWithType.vb: ApplicationArray.ProcessArrayParametersExecute(Boolean)
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersExecute(Boolean)
+  name.vb: ProcessArrayParametersExecute(Boolean)
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersExecute(System.Boolean)
+    name: ProcessArrayParametersExecute
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ProcessArrayParametersExecute_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.ProcessArrayParametersExecute(System.Boolean)
+    name: ProcessArrayParametersExecute
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_ProcessArrayParametersExecute_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.SetIntArray(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.SetIntArray(System.Int32,System.Int32,System.Int32)
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  isExternal: true
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_SetIntArray_System_Int32_System_Int32_System_Int32_
+  name: SetIntArray(int, int, int)
+  nameWithType: ApplicationArray.SetIntArray(int, int, int)
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.SetIntArray(int, int, int)
+  nameWithType.vb: ApplicationArray.SetIntArray(Integer, Integer, Integer)
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationArray.SetIntArray(Integer, Integer, Integer)
+  name.vb: SetIntArray(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.SetIntArray(System.Int32,System.Int32,System.Int32)
+    name: SetIntArray
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_SetIntArray_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.SetIntArray(System.Int32,System.Int32,System.Int32)
+    name: SetIntArray
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_SetIntArray_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.SetRealArray(System.Double,System.Int32,System.Int32)
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.SetRealArray(System.Double,System.Int32,System.Int32)
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  isExternal: true
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_SetRealArray_System_Double_System_Int32_System_Int32_
+  name: SetRealArray(double, int, int)
+  nameWithType: ApplicationArray.SetRealArray(double, int, int)
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.SetRealArray(double, int, int)
+  nameWithType.vb: ApplicationArray.SetRealArray(Double, Integer, Integer)
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationArray.SetRealArray(Double, Integer, Integer)
+  name.vb: SetRealArray(Double, Integer, Integer)
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.SetRealArray(System.Double,System.Int32,System.Int32)
+    name: SetRealArray
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_SetRealArray_System_Double_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.SetRealArray(System.Double,System.Int32,System.Int32)
+    name: SetRealArray
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_SetRealArray_System_Double_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.GetIntArray(System.Int32,System.Int32)
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.GetIntArray(System.Int32,System.Int32)
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  isExternal: true
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_GetIntArray_System_Int32_System_Int32_
+  name: GetIntArray(int, int)
+  nameWithType: ApplicationArray.GetIntArray(int, int)
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.GetIntArray(int, int)
+  nameWithType.vb: ApplicationArray.GetIntArray(Integer, Integer)
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationArray.GetIntArray(Integer, Integer)
+  name.vb: GetIntArray(Integer, Integer)
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.GetIntArray(System.Int32,System.Int32)
+    name: GetIntArray
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_GetIntArray_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.GetIntArray(System.Int32,System.Int32)
+    name: GetIntArray
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_GetIntArray_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.GetRealArray(System.Int32,System.Int32)
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.GetRealArray(System.Int32,System.Int32)
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  isExternal: true
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_GetRealArray_System_Int32_System_Int32_
+  name: GetRealArray(int, int)
+  nameWithType: ApplicationArray.GetRealArray(int, int)
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.GetRealArray(int, int)
+  nameWithType.vb: ApplicationArray.GetRealArray(Integer, Integer)
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationArray.GetRealArray(Integer, Integer)
+  name.vb: GetRealArray(Integer, Integer)
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.GetRealArray(System.Int32,System.Int32)
+    name: GetRealArray
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_GetRealArray_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.GetRealArray(System.Int32,System.Int32)
+    name: GetRealArray
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_GetRealArray_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BOOSE.Evaluation.expression
+  commentId: F:BOOSE.Evaluation.expression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: expression
+  nameWithType: Evaluation.expression
+  fullName: BOOSE.Evaluation.expression
+- uid: BOOSE.Evaluation.evaluatedExpression
+  commentId: F:BOOSE.Evaluation.evaluatedExpression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: evaluatedExpression
+  nameWithType: Evaluation.evaluatedExpression
+  fullName: BOOSE.Evaluation.evaluatedExpression
+- uid: BOOSE.Evaluation.varName
+  commentId: F:BOOSE.Evaluation.varName
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: varName
+  nameWithType: Evaluation.varName
+  fullName: BOOSE.Evaluation.varName
+- uid: BOOSE.Evaluation.value
+  commentId: F:BOOSE.Evaluation.value
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: value
+  nameWithType: Evaluation.value
+  fullName: BOOSE.Evaluation.value
+- uid: BOOSE.Evaluation.ProcessExpression(System.String)
+  commentId: M:BOOSE.Evaluation.ProcessExpression(System.String)
+  parent: BOOSE.Evaluation
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ProcessExpression(string)
+  nameWithType: Evaluation.ProcessExpression(string)
+  fullName: BOOSE.Evaluation.ProcessExpression(string)
+  nameWithType.vb: Evaluation.ProcessExpression(String)
+  fullName.vb: BOOSE.Evaluation.ProcessExpression(String)
+  name.vb: ProcessExpression(String)
+  spec.csharp:
+  - uid: BOOSE.Evaluation.ProcessExpression(System.String)
+    name: ProcessExpression
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Evaluation.ProcessExpression(System.String)
+    name: ProcessExpression
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Evaluation.Expression
+  commentId: P:BOOSE.Evaluation.Expression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Expression
+  nameWithType: Evaluation.Expression
+  fullName: BOOSE.Evaluation.Expression
+- uid: BOOSE.Evaluation.VarName
+  commentId: P:BOOSE.Evaluation.VarName
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: VarName
+  nameWithType: Evaluation.VarName
+  fullName: BOOSE.Evaluation.VarName
+- uid: BOOSE.Evaluation.Value
+  commentId: P:BOOSE.Evaluation.Value
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Value
+  nameWithType: Evaluation.Value
+  fullName: BOOSE.Evaluation.Value
+- uid: BOOSE.Evaluation.Local
+  commentId: P:BOOSE.Evaluation.Local
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Local
+  nameWithType: Evaluation.Local
+  fullName: BOOSE.Evaluation.Local
+- uid: BOOSE.Command.program
+  commentId: F:BOOSE.Command.program
+  parent: BOOSE.Command
+  isExternal: true
+  name: program
+  nameWithType: Command.program
+  fullName: BOOSE.Command.program
+- uid: BOOSE.Command.parameterList
+  commentId: F:BOOSE.Command.parameterList
+  parent: BOOSE.Command
+  isExternal: true
+  name: parameterList
+  nameWithType: Command.parameterList
+  fullName: BOOSE.Command.parameterList
+- uid: BOOSE.Command.parameters
+  commentId: F:BOOSE.Command.parameters
+  parent: BOOSE.Command
+  isExternal: true
+  name: parameters
+  nameWithType: Command.parameters
+  fullName: BOOSE.Command.parameters
+- uid: BOOSE.Command.paramsint
+  commentId: F:BOOSE.Command.paramsint
+  parent: BOOSE.Command
+  isExternal: true
+  name: paramsint
+  nameWithType: Command.paramsint
+  fullName: BOOSE.Command.paramsint
+- uid: BOOSE.Command.ProcessParameters(System.String)
+  commentId: M:BOOSE.Command.ProcessParameters(System.String)
+  parent: BOOSE.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ProcessParameters(string)
+  nameWithType: Command.ProcessParameters(string)
+  fullName: BOOSE.Command.ProcessParameters(string)
+  nameWithType.vb: Command.ProcessParameters(String)
+  fullName.vb: BOOSE.Command.ProcessParameters(String)
+  name.vb: ProcessParameters(String)
+  spec.csharp:
+  - uid: BOOSE.Command.ProcessParameters(System.String)
+    name: ProcessParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.ProcessParameters(System.String)
+    name: ProcessParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Command.ToString
+  commentId: M:BOOSE.Command.ToString
+  parent: BOOSE.Command
+  isExternal: true
+  name: ToString()
+  nameWithType: Command.ToString()
+  fullName: BOOSE.Command.ToString()
+  spec.csharp:
+  - uid: BOOSE.Command.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.Command.Program
+  commentId: P:BOOSE.Command.Program
+  parent: BOOSE.Command
+  isExternal: true
+  name: Program
+  nameWithType: Command.Program
+  fullName: BOOSE.Command.Program
+- uid: BOOSE.Command.Name
+  commentId: P:BOOSE.Command.Name
+  parent: BOOSE.Command
+  isExternal: true
+  name: Name
+  nameWithType: Command.Name
+  fullName: BOOSE.Command.Name
+- uid: BOOSE.Command.ParameterList
+  commentId: P:BOOSE.Command.ParameterList
+  parent: BOOSE.Command
+  isExternal: true
+  name: ParameterList
+  nameWithType: Command.ParameterList
+  fullName: BOOSE.Command.ParameterList
+- uid: BOOSE.Command.Parameters
+  commentId: P:BOOSE.Command.Parameters
+  parent: BOOSE.Command
+  isExternal: true
+  name: Parameters
+  nameWithType: Command.Parameters
+  fullName: BOOSE.Command.Parameters
+- uid: BOOSE.Command.Paramsint
+  commentId: P:BOOSE.Command.Paramsint
+  parent: BOOSE.Command
+  isExternal: true
+  name: Paramsint
+  nameWithType: Command.Paramsint
+  fullName: BOOSE.Command.Paramsint
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  commentId: T:ASE_SABIN_KHANAL_77358588.ApplicationPoke
+  href: ASE_SABIN_KHANAL_77358588.ApplicationPoke.html
+  name: ApplicationPoke
+  nameWithType: ApplicationPoke
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke.#ctor*
+  commentId: Overload:ASE_SABIN_KHANAL_77358588.ApplicationPoke.#ctor
+  href: ASE_SABIN_KHANAL_77358588.ApplicationPoke.html#ASE_SABIN_KHANAL_77358588_ApplicationPoke__ctor
+  name: ApplicationPoke
+  nameWithType: ApplicationPoke.ApplicationPoke
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke.ApplicationPoke
+  nameWithType.vb: ApplicationPoke.New
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationPoke.New
+  name.vb: New
+- uid: BOOSE.CommandException
+  commentId: T:BOOSE.CommandException
+  isExternal: true
+  name: CommandException
+  nameWithType: CommandException
+  fullName: BOOSE.CommandException
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.CheckParameters(System.String[])
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.CheckParameters(System.String[])
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  isExternal: true
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_CheckParameters_System_String___
+  name: CheckParameters(string[])
+  nameWithType: ApplicationArray.CheckParameters(string[])
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.CheckParameters(string[])
+  nameWithType.vb: ApplicationArray.CheckParameters(String())
+  fullName.vb: ASE_SABIN_KHANAL_77358588.ApplicationArray.CheckParameters(String())
+  name.vb: CheckParameters(String())
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.CheckParameters(System.String[])
+    name: CheckParameters
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_CheckParameters_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.CheckParameters(System.String[])
+    name: CheckParameters
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_CheckParameters_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke.CheckParameters*
+  commentId: Overload:ASE_SABIN_KHANAL_77358588.ApplicationPoke.CheckParameters
+  href: ASE_SABIN_KHANAL_77358588.ApplicationPoke.html#ASE_SABIN_KHANAL_77358588_ApplicationPoke_CheckParameters_System_String___
+  name: CheckParameters
+  nameWithType: ApplicationPoke.CheckParameters
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke.CheckParameters
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.Compile
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.Compile
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_Compile
+  name: Compile()
+  nameWithType: ApplicationArray.Compile()
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.Compile()
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.Compile
+    name: Compile
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_Compile
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.Compile
+    name: Compile
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_Compile
+  - name: (
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Compile*
+  commentId: Overload:ASE_SABIN_KHANAL_77358588.ApplicationPoke.Compile
+  href: ASE_SABIN_KHANAL_77358588.ApplicationPoke.html#ASE_SABIN_KHANAL_77358588_ApplicationPoke_Compile
+  name: Compile
+  nameWithType: ApplicationPoke.Compile
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Compile
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.Execute
+  commentId: M:ASE_SABIN_KHANAL_77358588.ApplicationArray.Execute
+  parent: ASE_SABIN_KHANAL_77358588.ApplicationArray
+  href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_Execute
+  name: Execute()
+  nameWithType: ApplicationArray.Execute()
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationArray.Execute()
+  spec.csharp:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.Execute
+    name: Execute
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_Execute
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_SABIN_KHANAL_77358588.ApplicationArray.Execute
+    name: Execute
+    href: ASE_SABIN_KHANAL_77358588.ApplicationArray.html#ASE_SABIN_KHANAL_77358588_ApplicationArray_Execute
+  - name: (
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Execute*
+  commentId: Overload:ASE_SABIN_KHANAL_77358588.ApplicationPoke.Execute
+  href: ASE_SABIN_KHANAL_77358588.ApplicationPoke.html#ASE_SABIN_KHANAL_77358588_ApplicationPoke_Execute
+  name: Execute
+  nameWithType: ApplicationPoke.Execute
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Execute
+- uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  commentId: M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  parent: BOOSE.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: Set(StoredProgram, string)
+  nameWithType: Command.Set(StoredProgram, string)
+  fullName: BOOSE.Command.Set(BOOSE.StoredProgram, string)
+  nameWithType.vb: Command.Set(StoredProgram, String)
+  fullName.vb: BOOSE.Command.Set(BOOSE.StoredProgram, String)
+  name.vb: Set(StoredProgram, String)
+  spec.csharp:
+  - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: BOOSE.StoredProgram
+    name: StoredProgram
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: BOOSE.StoredProgram
+    name: StoredProgram
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Set*
+  commentId: Overload:ASE_SABIN_KHANAL_77358588.ApplicationPoke.Set
+  href: ASE_SABIN_KHANAL_77358588.ApplicationPoke.html#ASE_SABIN_KHANAL_77358588_ApplicationPoke_Set_BOOSE_StoredProgram_System_String_
+  name: Set
+  nameWithType: ApplicationPoke.Set
+  fullName: ASE_SABIN_KHANAL_77358588.ApplicationPoke.Set
+- uid: BOOSE.StoredProgram
+  commentId: T:BOOSE.StoredProgram
+  parent: BOOSE
+  isExternal: true
+  name: StoredProgram
+  nameWithType: StoredProgram
+  fullName: BOOSE.StoredProgram
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
